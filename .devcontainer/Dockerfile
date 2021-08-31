@@ -115,7 +115,8 @@ RUN stack config --system-ghc set system-ghc --global true && \
 RUN printf "ghc-options:\n  \"\$everything\": -haddock\n" >> /home/${USERNAME}/.stack/config.yaml
 
 # Install global packages.
-RUN cabal install phoityne-vscode haskell-dap hlint stylish-haskell hoogle ormolu
+RUN cabal install phoityne-vscode haskell-dap hlint stylish-haskell ormolu
+RUN cabal install hoogle --constraint 'extra < 1.7.10'
 
 # Generate hoogle db
 RUN hoogle generate && stack hoogle
