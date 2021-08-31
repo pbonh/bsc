@@ -1,8 +1,8 @@
 {-# OPTIONS_GHC -fno-warn-missing-signatures #-}
 
-module PreStrings where
-import FStringCompat
-import Util(itos)
+module Comp.PreStrings where
+import Comp.FStringCompat
+import Comp.Util(itos)
 
 
 fsEmpty            = mkFString ""

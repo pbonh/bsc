@@ -1,5 +1,5 @@
 {-# LANGUAGE DeriveDataTypeable #-}
-module FStringCompat(FString, getFString,
+module Comp.FStringCompat(FString, getFString,
                      tmpFString, cloneFString, concatFString,
                      mkNumFString, mkStrFString, mkFString,
                      filterFString
@@ -8,9 +8,9 @@ module FStringCompat(FString, getFString,
 -- wrapper to make SStrings look like FStrings
 
 import Prelude hiding((++))
-import qualified SpeedyString as S
-import PPrint(PPrint(..), text)
-import Util(itos)
+import qualified Comp.SpeedyString as S
+import Comp.PPrint(PPrint(..), text)
+import Comp.Util(itos)
 import qualified Data.Generics as Generic
 
 

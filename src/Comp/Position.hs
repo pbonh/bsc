@@ -4,12 +4,12 @@ module Comp.Position where
 import Data.List(partition)
 import qualified Data.Generics as Generic
 
-import Eval
-import PPrint
-import PVPrint
-import FStringCompat
-import PreStrings(fsEmpty)
-import FileNameUtil(getRelativeFilePath)
+import Comp.Eval
+import Comp.PPrint
+import Comp.PVPrint
+import Comp.FStringCompat
+import Comp.PreStrings(fsEmpty)
+import Comp.FileNameUtil(getRelativeFilePath)
 
 data Position = Position {
     pos_file :: !FString,

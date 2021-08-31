@@ -1,4 +1,4 @@
-module Eval(Hyper(..),
+module Comp.Eval(Hyper(..),
             hyper2, hyper3, hyper4, hyper5, hyper6, hyper7, hyper8, hyper9,
             hyper10, hyper11, hyper12, hyper13, hyper14, hyper15, hyper16,
             hyper17,
@@ -9,7 +9,7 @@ import Data.IntMap as IM
 import Data.IntSet as IS
 import Data.Set as DS
 import Data.Map as DM
-import FStringCompat(FString)
+import Comp.FStringCompat(FString)
 
 -- Hyperstrict identity function
 class Hyper a where

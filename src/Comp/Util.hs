@@ -11,9 +11,9 @@ import qualified Data.Set as S
 import qualified Data.Map as M
 -- import Numeric(showHex)
 
-import ErrorUtil(internalError)
-import qualified Log2
-import Sort(sortLe)
+import Comp.ErrorUtil(internalError)
+import qualified Comp.Log2
+import Comp.Libs.Sort(sortLe)
 
 -- Note:
 --   There are some list functions in Libs/ListUtil.hs

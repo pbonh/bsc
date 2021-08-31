@@ -1,7 +1,7 @@
 -- Copyright (c) 1982-1999 Lennart Augustsson, Thomas Johnsson
 -- See LICENSE for the full license.
 --
-module Sort(sortLe) where
+module Comp.Libs.Sort(sortLe) where
 
 sortLe :: (a -> a -> Bool) -> [a] -> [a]
 sortLe le l = tmsort le l

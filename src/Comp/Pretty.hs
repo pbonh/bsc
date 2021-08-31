@@ -1,9 +1,9 @@
-module Pretty (module GHCPretty, pretty,
+module Comp.Pretty (module GHCPretty, pretty,
                -- utils
                s2par, s2docs
               ) where
 
-import GHCPretty
+import Comp.GHCPretty
 
 --
 -- The follow definitions used to be in PPrint, but this caused a

@@ -153,7 +153,7 @@ Relative to John's original paper, there are the following new features:
 
 \begin{code}
 {-# LANGUAGE CPP #-}
-module GHCPretty (
+module Comp.GHCPretty (
         Doc,            -- Abstract
         Mode(..), TextDetails(..),
 
@@ -181,7 +181,7 @@ module GHCPretty (
 import Prelude hiding ((<>))
 #endif
 
-import ErrorUtil(internalError)
+import Comp.ErrorUtil(internalError)
 
 -- Don't import Util( assertPanic ) because it makes a loop in the module structure
 

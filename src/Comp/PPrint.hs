@@ -12,7 +12,7 @@ import Prelude hiding ((<>))
 #endif
 
 import Pretty
-import Util(itos)
+import Comp.Util(itos)
 import Debug.Trace
 import qualified Data.Map as M
 import qualified Data.Set as S

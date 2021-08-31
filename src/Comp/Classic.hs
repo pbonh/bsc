@@ -3,7 +3,7 @@ module Comp.Classic (SyntaxMode(..),
                 isBSV, isClassic, isEse
                ) where
 
-import Comp.IOMutVar(MutableVar, newVar, readVar, writeVar)
+import Comp.Libs.IOMutVar(MutableVar, newVar, readVar, writeVar)
 import System.IO.Unsafe(unsafePerformIO)
 
 data SyntaxMode = BSV | CLASSIC | ESE

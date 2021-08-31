@@ -1,5 +1,5 @@
 {-# LANGUAGE CPP #-}
-module PVPrint(PVPrint(..), module Pretty, PDetail(..),
+module Comp.PVPrint(PVPrint(..), module Pretty, PDetail(..),
         pvpReadable, pvpReadableIndent, pvpAll, pvpDebug, pvpString, pvpStringNQ, pvp80,
         pvparen
         ) where
@@ -8,10 +8,10 @@ module PVPrint(PVPrint(..), module Pretty, PDetail(..),
 import Prelude hiding ((<>))
 #endif
 
-import PPrint
+import Comp.PPrint
 import Debug.Trace
-import Util(itos)
-import Pretty -- already exported by PPrint, but needed in order to export again
+import Comp.Util(itos)
+import Comp.Pretty -- already exported by PPrint, but needed in order to export again
 
 class PVPrint a where
     pvPrint :: PDetail -> Int -> a -> Doc

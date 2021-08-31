@@ -1,4 +1,4 @@
-module FileNameUtil where
+module Comp.FileNameUtil where
 
 
 -- ==================================================
@@ -12,7 +12,7 @@ module FileNameUtil where
 import System.Directory
 import Numeric(showInt)
 
-import Util(rTake)
+import Comp.Util(rTake)
 
 
 -- =====

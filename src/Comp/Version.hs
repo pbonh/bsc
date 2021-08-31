@@ -1,4 +1,4 @@
-module Version(bluespec, bscVersionStr, versionStr, versionname,
+module Comp.Version(bluespec, bscVersionStr, versionStr, versionname,
                copyright, buildnum
               ) where
 

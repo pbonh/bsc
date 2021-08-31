@@ -5,7 +5,7 @@ import System.IO(hPutStr, stderr)
 import System.IO.Unsafe(unsafePerformIO)
 import System.Exit(exitWith, ExitCode(..))
 
-import Version(bscVersionStr)
+import Comp.Version(bscVersionStr)
 
 {-# NOINLINE internalError #-}
 --

@@ -2,7 +2,7 @@ module Comp.IntegerUtil(mask, ext, integerFormat, integerFormatPref,
                    integerInvert, integerXor, integerSelect, aaaa,
                    integerAnd, integerOr, integerToString) where
 
-import ErrorUtil(internalError)
+import Comp.ErrorUtil(internalError)
 
 
 -- generate N bits of repeating 'aaaa' pattern
