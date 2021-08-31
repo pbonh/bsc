@@ -9,7 +9,7 @@ homepage:           https://github.com/B-Lang-org/bsc
 
 -- A URL where users can report bugs.
 -- bug-reports:
-license:            BSD-3
+license:            BSD-3-Clause
 author:             Phillip Bonhomme
 maintainer:         phillip.bonhomme@gmail.com
 
@@ -17,7 +17,6 @@ maintainer:         phillip.bonhomme@gmail.com
 -- copyright:
 category:           Development
 extra-source-files:
-    CHANGELOG.md
     README.md
 
 library
@@ -35,6 +34,7 @@ library
     -- other-modules:
     other-extensions: CPP
     build-depends:    base ^>=4.14.1.0
+                    , containers
     hs-source-dirs:   src
     default-language: Haskell2010
 

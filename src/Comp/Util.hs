@@ -1,5 +1,5 @@
 {-# LANGUAGE TypeSynonymInstances, FlexibleInstances #-}
-module Util where
+module Comp.Util where
 
 import Data.Char(intToDigit)
 import Data.Word(Word32,Word64)

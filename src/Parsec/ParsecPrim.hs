@@ -13,7 +13,7 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecPrim
+module Parsec.ParsecPrim
                    ( -- operators: label a parser, alternative
                      (<?>), (<|>)
 
@@ -54,8 +54,8 @@ import Control.Monad
 #if !defined(__GLASGOW_HASKELL__) || ((__GLASGOW_HASKELL__ >= 800) && (__GLASGOW_HASKELL__ < 808))
 import Control.Monad.Fail(MonadFail(..))
 #endif
-import Error(EMsg, ErrMsg(..)) -- from BSC
-import Position hiding(getPosition) -- from BSC
+import Comp.Error(EMsg, ErrMsg(..)) -- from BSC
+import Comp.Position hiding(getPosition) -- from BSC
 
 {-# INLINE parsecMap    #-}
 {-# INLINE parsecReturn #-}

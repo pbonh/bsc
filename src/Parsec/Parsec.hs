@@ -27,14 +27,14 @@
 --
 -----------------------------------------------------------------------------
 
-module Parsec
+module Parsec.Parsec
                ( -- complete modules
                  module ParsecPrim
                , module ParsecCombinator
                , module ParsecChar
              ) where
 
-import ParsecPrim           -- primitive combinators
-import ParsecCombinator     -- derived combinators
-import ParsecChar           -- character parsers
+import Parsec.ParsecPrim           -- primitive combinators
+import Parsec.ParsecCombinator     -- derived combinators
+import Parsec.ParsecChar           -- character parsers
 

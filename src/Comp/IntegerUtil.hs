@@ -1,4 +1,4 @@
-module IntegerUtil(mask, ext, integerFormat, integerFormatPref,
+module Comp.IntegerUtil(mask, ext, integerFormat, integerFormatPref,
                    integerInvert, integerXor, integerSelect, aaaa,
                    integerAnd, integerOr, integerToString) where
 

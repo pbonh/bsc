@@ -12,7 +12,7 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecCombinator
+module Parsec.ParsecCombinator
                         ( choice
                         , count
                         , between
@@ -31,7 +31,7 @@ module ParsecCombinator
                         ) where
 
 import Control.Monad
-import ParsecPrim
+import Parsec.ParsecPrim
 
 
 ----------------------------------------------------------------

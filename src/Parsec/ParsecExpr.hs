@@ -13,13 +13,13 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecExpr
+module Parsec.ParsecExpr
                  ( Assoc(..), Operator(..), OperatorTable
                  , buildExpressionParser
                  ) where
 
-import ParsecPrim
-import ParsecCombinator
+import Parsec.ParsecPrim
+import Parsec.ParsecCombinator
 
 
 -----------------------------------------------------------

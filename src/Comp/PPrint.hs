@@ -1,5 +1,5 @@
 {-# LANGUAGE CPP #-}
-module PPrint(PPrint(..), PDetail(..), module Pretty,
+module Comp.PPrint(PPrint(..), PDetail(..), module Pretty,
         ppReadable, ppReadableIndent, ppAll, ppDebug, ppString, pp80,
         pparen, sepList, catList, vcatList, ppr, ppDoc,
         maxPrec, vsep, wrap, commaSep, encloseSep,

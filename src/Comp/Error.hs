@@ -4,7 +4,7 @@
 -- This is used to guarantee that getErrorText covers all the cases
 -- Note that the OPTIONS line must be first !!!!
 
-module Error(
+module Comp.Error(
              -- internal errors
              internalError,
 
@@ -52,17 +52,17 @@ module Error(
 import Prelude hiding ((<>))
 #endif
 
-import ErrorUtil(internalError)
+import Comp.ErrorUtil(internalError)
 
 -- displaying messages
 import Data.List(sortBy, intercalate, nub, delete, partition)
 import Data.Char(toUpper)
 
-import Util(quote, unwordsOr, unwordsAnd, itos, doubleQuote, fst3, fth4)
-import IntegerUtil(integerFormat)
-import Position
-import PPrint
-import Classic(isClassic)
+import Comp.Util(quote, unwordsOr, unwordsAnd, itos, doubleQuote, fst3, fth4)
+import Comp.IntegerUtil(integerFormat)
+import Comp.Position
+import Comp.PPrint
+import Comp.Classic(isClassic)
 import qualified Flags as F
 
 -- error handling
@@ -70,7 +70,7 @@ import Data.List(genericLength)
 import qualified Data.Set as S
 import System.IO(Handle, hClose, hPutStr, stderr)
 import System.Exit(exitWith, ExitCode(..))
-import ErrorTCompat
+import Comp.ErrorTCompat
 import Control.Monad(when)
 import qualified Control.Exception as CE
 import Data.IORef

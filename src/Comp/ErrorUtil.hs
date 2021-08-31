@@ -1,4 +1,4 @@
-module ErrorUtil (internalError) where
+module Comp.ErrorUtil (internalError) where
 
 -- import Pretty        -- causes loops
 import System.IO(hPutStr, stderr)

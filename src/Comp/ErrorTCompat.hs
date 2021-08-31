@@ -1,5 +1,5 @@
 {-# LANGUAGE CPP #-}
-module ErrorTCompat (
+module Comp.ErrorTCompat (
        ErrorT,
        runErrorT,
        MonadError(..),

@@ -18,7 +18,7 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecPerm
+module Parsec.ParsecPerm
                   ( PermParser  -- abstract
 
                   , permute
@@ -26,7 +26,7 @@ module ParsecPerm
                   , (<|?>), (<$?>)
                   ) where
 
-import Parsec
+import Parsec.Parsec
 
 {---------------------------------------------------------------
 

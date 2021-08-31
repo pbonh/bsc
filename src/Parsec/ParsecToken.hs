@@ -13,15 +13,15 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecToken
+module Parsec.ParsecToken
                   ( LanguageDef (..)
                   , TokenParser (..)
                   , makeTokenParser
                   ) where
 
-import Char (isAlpha,toLower,toUpper,isSpace,digitToInt)
-import List (nub,sort)
-import Parsec
+import Data.Char (isAlpha,toLower,toUpper,isSpace,digitToInt)
+import Data.List (nub,sort)
+import Parsec.Parsec
 
 
 -----------------------------------------------------------

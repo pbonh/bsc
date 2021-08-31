@@ -1,4 +1,4 @@
-module IOMutVar(MutableVar, newVar, readVar, writeVar) where
+module Comp.IOMutVar(MutableVar, newVar, readVar, writeVar) where
 
 import Data.IORef
 

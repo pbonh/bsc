@@ -1,5 +1,5 @@
 {-# LANGUAGE TypeSynonymInstances, FlexibleInstances, DeriveDataTypeable #-}
-module Position where
+module Comp.Position where
 
 import Data.List(partition)
 import qualified Data.Generics as Generic

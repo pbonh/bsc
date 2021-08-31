@@ -13,7 +13,7 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecLanguage
+module Parsec.ParsecLanguage
                      ( haskellDef, haskell
                      , mondrianDef, mondrian
 
@@ -22,8 +22,8 @@ module ParsecLanguage
                      , javaStyle
                      , LanguageDef (..)
                      ) where
-import Parsec
-import ParsecToken
+import Parsec.Parsec
+import Parsec.ParsecToken
 
 
 -----------------------------------------------------------

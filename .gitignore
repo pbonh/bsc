@@ -13,3 +13,4 @@ build
 
 .vagrant/
 vagrant-out/
+dist-newstyle

@@ -12,7 +12,7 @@
 --
 -----------------------------------------------------------------------------
 
-module ParsecChar
+module Parsec.ParsecChar
                   ( CharParser
                   , spaces, space
                   , newline, tab
@@ -25,8 +25,8 @@ module ParsecChar
 
 import Prelude
 import Data.Char
-import ParsecPrim
-import Position -- from BSC
+import Parsec.ParsecPrim
+import Comp.Position -- from BSC
 
 -----------------------------------------------------------
 -- Type of character parsers
